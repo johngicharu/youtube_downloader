@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=1200px" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				margin: 0;
+				font-family: Roboto;
+				line-height: 1.5;
+				font-weight: 300;
+				font-size: 14px;
+				color: #444;
+				background-color: #192c44;
+				color: #f2f2f2;
+				height: 100vh;
+				overflow: hidden;
+			}
+
+			a {
+				text-decoration: none;
+				color: #4091e2;
+			}
+
+			li {
+				list-style-type: none;
+			}
+
+			.container {
+				width: 90%;
+				min-height: 100%;
+				height: 100%;
+				margin: 0 auto;
+				position: relative;
+			}
+
+			@media (max-width: 750px) {
+				.container {
+					width: 96%;
+				}
+			}
+		</style>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Youtube Downloader</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="nav">
+				<div class="brand">
+					<a href="/">Youtube Downloader</a>
+				</div>
+				<ul class="nav-items">
+					<li><a href="/">Single Video</a></li>
+					<li><a class="active" href="/playlist.html">Playlist</a></li>
+					<li><a href="/tos.html">Terms of Service</a></li>
+				</ul>
+			</div>
+			<div class="main">
+				<form id="single-link" class="form">
+					<div class="form-control">
+						<input
+							type="text"
+							name="playlist_link"
+							id="playlist_link"
+							placeholder="Playlist Link"
+							required
+						/>
+					</div>
+
+					<div class="form-control">
+						<select name="format" id="format">
+							<option value="137">Preferred Quality</option>
+							<option value="137">mp4 1080p</option>
+							<option value="248">webm 1080p</option>
+							<option value="136">MP4 720P</option>
+							<option value="247">webm 720p</option>
+							<option value="135">mp4 480p</option>
+							<option value="140">mp4a.40.2</option>
+							<option value="134">MP4 360P</option>
+						</select>
+					</div>
+
+					<div class="form-control">
+						<a href="#!" class="btn">Download</a>
+					</div>
+				</form>
+				<div class="server-response">
+					<h2 class="title">Playlist: How to GraphQL</h2>
+					<div class="playlist data">
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#2. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+						<div class="video-item">
+							<div class="title">
+								#1. How to Graphql: Graphql Introduction
+							</div>
+							<div class="time">16.01</div>
+							<a href="#!" class="btn">Download</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				Designed and Built by
+				<a href="mailto:johngicharu10@gmail.com">
+					John Gicharu
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

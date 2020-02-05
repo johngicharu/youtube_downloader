@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=1200px" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				margin: 0;
+				font-family: Roboto;
+				line-height: 1.5;
+				font-weight: 300;
+				font-size: 14px;
+				color: #444;
+				background-color: #192c44;
+				color: #f2f2f2;
+				height: 100vh;
+				overflow: hidden;
+			}
+
+			a {
+				text-decoration: none;
+				color: #4091e2;
+			}
+
+			li {
+				list-style-type: none;
+			}
+
+			.container {
+				width: 90%;
+				min-height: 100%;
+				height: 100%;
+				margin: 0 auto;
+				position: relative;
+			}
+
+			@media (max-width: 750px) {
+				.container {
+					width: 96%;
+				}
+			}
+		</style>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Youtube Downloader</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="nav">
+				<div class="brand">
+					<a href="/">Youtube Downloader</a>
+				</div>
+				<ul class="nav-items">
+					<li><a class="active" href="/">Single Video</a></li>
+					<li><a href="/playlist.html">Playlist</a></li>
+					<li><a href="/tos.html">Terms of Service</a></li>
+				</ul>
+			</div>
+			<div class="main">
+				<form id="single-link" class="form">
+					<div class="form-control">
+						<input
+							type="text"
+							name="single_video"
+							id="single_video"
+							placeholder="Video Link"
+						/>
+					</div>
+					<div class="form-control">
+						<a href="#!" class="btn">Download</a>
+					</div>
+				</form>
+				<div class="server-response">
+					<h2 class="title">Available Formats</h2>
+					<div class="data video">
+						<div class="video-data">
+							<h5>1080p</h5>
+							<a href="" class="btn">mp4 | 1080p</a>
+							<a href="" class="btn">webp | 1080p</a>
+						</div>
+						<div class="video-data">
+							<h5>720p</h5>
+							<a href="" class="btn">mp4 | 720p</a>
+							<a href="" class="btn">webp | 720p</a>
+						</div>
+						<div class="video-data">
+							<h5>480p</h5>
+							<a href="" class="btn">mp4 | 480p</a>
+							<a href="" class="btn">webp | 480p</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				Designed and Built by
+				<a href="mailto:johngicharu10@gmail.com">
+					John Gicharu
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
